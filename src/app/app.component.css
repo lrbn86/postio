@@ -1,0 +1,38 @@
+form {
+  /* color: #131313; */
+  border-radius: 5px;
+  background-color: slategray;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 1px 3px #fff;
+  margin-bottom: 2rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+form div > * {
+  flex: 1;
+}
+
+input[type="text"] {
+  padding: .2rem;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+
+button {
+  float: right;
+  padding: .5rem;
+  background-color: green;
+  box-shadow: 0 1px 3px #131313;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}

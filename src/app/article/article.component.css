@@ -1,0 +1,36 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 1.5rem;
+}
+
+a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.votes {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.votesContainer {
+  background-color: slategray;
+  border-radius: 5px;
+  /* color: #131313; */
+  padding: 3rem;
+}
+
+.articleBlock {
+  margin-left: 20px;
+}
+
+.title-link {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
